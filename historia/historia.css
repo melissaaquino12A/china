@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'montserrat';
+    background-image: ("../fundo5.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: -5rem;
+}
+
+:root{
+    --orange-light:#d24d28;
+    --white-fff:#fff;
+    --dark-orange:#87321a;
+   }
+
+.container{
+   display: flex;
+}
+
+.img {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img img {
+    max-width: 850px;
+    height: 100vh;
+}
+
+.p{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    text-align: left;
+}
+
+p{
+    padding-left: 12rem;
+}
+
+main h1 {
+    padding-top: 5rem; 
+    padding-bottom: 6rem; 
+    padding-left: 24rem;
+    font-weight: 600;  
+    margin: 0;         
+}
+
+.botao-proximo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--orange-light);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+    margin-top: 18rem;
+    margin-left: 8rem;
+}
+
+.botao-proximo:hover {
+    background-color: var(--dark-orange);
+}
