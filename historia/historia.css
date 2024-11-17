@@ -1,83 +1,99 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    font-family: 'montserrat';
-    background-image: ("../fundo5.png");
-    background-size: cover; 
-    background-repeat: no-repeat;
+body {
+    background-image: url('../imagens/fundo.png');
+     background-size: cover; 
+    background-repeat: no-repeat; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100vh;
-    margin-bottom: -5rem;
 }
 
-:root{
-    --orange-light:#d24d28;
-    --white-fff:#fff;
-    --dark-orange:#87321a;
-   }
 
-.container{
-   display: flex;
+.container main{
+
+    margin-left: 23.2rem;
+    margin-bottom: 30px;
 }
-
-.img {
+.image {
     position: fixed;
+    top: 0;
     right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 45vw; 
+    height: 100vh; 
+    overflow: hidden; 
+    z-index: -1; 
 }
 
-.img img {
-    max-width: 850px;
-    height: 100vh;
+.image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
-.p{
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 20px;
-    text-align: left;
-}
-
-p{
-    padding-left: 12rem;
-}
-
-main h1 {
-    padding-top: 5rem; 
-    padding-bottom: 6rem; 
-    padding-left: 24rem;
-    font-weight: 600;  
-    margin: 0;         
-}
-
-.botao-proximo {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--orange-light);
-    color: white;
-    border: none;
-    border-radius: 50%;
+.arrow {
+    position: absolute;
+    bottom: 50px;
     width: 60px;
     height: 60px;
-    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #d84315;
+    color: white;
+    font-size: 1.5em;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-
-    margin-top: 18rem;
-    margin-left: 8rem;
+    
 }
 
-.botao-proximo:hover {
-    background-color: var(--dark-orange);
+.arrow.left {
+    left: 56.6rem;
+    
+
 }
+
+.arrow.right {
+    margin-left: 9rem;
+   
+}
+  
+.title {
+    font-size: 2.5em;         
+              
+    font-weight: bold;        
+    text-align: center;       
+    margin-bottom: 1px;    
+    
+  }
+
+  li {
+
+    padding-left: 10px;
+    color: 
+    line-height: 150%;
+    text-align: center;
+    margin-top: 8px;
+    
+    margin-left: 17rem;
+}
+
+
+
+
+p {
+
+    
+    line-height: 150%;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-left: 17rem;
+
+}
+      

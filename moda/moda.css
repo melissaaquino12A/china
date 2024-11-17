@@ -78,7 +78,7 @@ body {
     line-height: 150%;
     text-align: center;
     margin-top: 8px;
-    text-align: center;
+    
     margin-left: 17rem;
 }
 
@@ -87,7 +87,7 @@ ol, ul {
 
     margin-left: 20px;
     text-align: center;
-    margin-left: 17rem;
+    margin-left: 1rem;
 }
 
 p {
